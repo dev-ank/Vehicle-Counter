@@ -52,5 +52,6 @@ if __name__=="__main__":
     line_1_end=(1500,500)
     line_2_start=(400,475)
     line_2_end=(1500,475)
-        
-    count_vehicles_only('./Dataset/day2.mp4',line_1_start,line_1_end,line_2_start,line_2_end)
+    
+    path='/Dataset/day2.mp4'
+    count_vehicles_only(path,line_1_start,line_1_end,line_2_start,line_2_end)
